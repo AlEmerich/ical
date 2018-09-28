@@ -32,8 +32,11 @@ Launch test with tox.
 Requirements
 ^^^^^^^^^^^^
 
-- Icalendar 4.0.2
-- Tox 3.4.0
+- Icalendar_ 4.0.2
+- Tox_ 3.4.0
+
+.. _Icalendar: https://pypi.org/project/icalendar/
+.. _Tox: https://pypi.org/project/tox/
 
 Authors
 -------
