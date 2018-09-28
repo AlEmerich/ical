@@ -5,10 +5,10 @@ FORMAT_DATE = "%Y-%m-%d"
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("-path", type=str)
-    parser.add_argument("-y", type=int)
-    parser.add_argument("-m", type=int)
-    parser.add_argument("-d", type=int)
+    parser.add_argument("-path", required=True, type=str)
+    parser.add_argument("-y", required=True, type=int)
+    parser.add_argument("-m", required=True, type=int)
+    parser.add_argument("-d", required=True, type=int)
     args = parser.parse_args()
 
     calendar = Ical(args.path)

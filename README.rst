@@ -13,12 +13,16 @@ Usage
 
     usage: main.py [-h] [-path PATH] [-y Y] [-m M] [-d D]
 
-    optional arguments:
+    positional arguments:
       -h, --help  show this help message and exit
       -path The path of the icalendar file, url of disk path
       -y the year of the date to search
       -m the month of the date to search
       -d the date of the date ot search
+
+Launch test with tox.
+
+    pip install tox && tox
 
 Requirements
 ^^^^^^^^^^^^
