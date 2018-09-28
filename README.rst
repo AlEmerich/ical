@@ -11,9 +11,12 @@ a specified in the calendar, or the events in the next day presents in it.
 Usage
 -----
 
-    usage: main.py [-h] [-path PATH] [-y Y] [-m M] [-d D]
+::
 
-    positional arguments:
+   usage: 
+      main.py [-h] [-path PATH] [-y Y] [-m M] [-d D]
+
+   positional arguments:
       -h, --help  show this help message and exit
       -path The path of the icalendar file, url of disk path
       -y the year of the date to search
@@ -21,6 +24,8 @@ Usage
       -d the date of the date ot search
 
 Launch test with tox.
+
+::
 
     pip install tox && tox
 
