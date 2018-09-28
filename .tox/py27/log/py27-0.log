@@ -1,0 +1,10 @@
+actionid: py27
+msg: getenv
+cmdargs: '/home/alan/.venv/ical/bin/python3 -m virtualenv --python /home/alan/.venv/ical/bin/python2.7 py27'
+
+Using real prefix '/usr'
+Path not in prefix '/home/alan/.venv/ical/include/python3.5m' '/usr'
+New python executable in /home/alan/Documents/repogit/perso/ical/.tox/py27/bin/python2.7
+Also creating executable in /home/alan/Documents/repogit/perso/ical/.tox/py27/bin/python
+Installing setuptools, pip, wheel...done.
+Running virtualenv with interpreter /home/alan/.venv/ical/bin/python2.7

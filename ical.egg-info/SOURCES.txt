@@ -1,0 +1,10 @@
+README.rst
+setup.py
+ical/__init__.py
+ical/utilities.py
+ical.egg-info/PKG-INFO
+ical.egg-info/SOURCES.txt
+ical.egg-info/dependency_links.txt
+ical.egg-info/top_level.txt
+tests/__init__.py
+tests/test_sample.py

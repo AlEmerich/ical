@@ -1,0 +1,15 @@
+actionid: py27
+msg: installpkg
+cmdargs: '/home/alan/Documents/repogit/perso/ical/.tox/py27/bin/python -m pip install --exists-action w /home/alan/Documents/repogit/perso/ical/.tox/dist/ical-0.1.0.zip'
+
+Processing ./.tox/dist/ical-0.1.0.zip
+Building wheels for collected packages: ical
+  Running setup.py bdist_wheel for ical: started
+  Running setup.py bdist_wheel for ical: finished with status 'done'
+  Stored in directory: /home/alan/.cache/pip/wheels/6d/e4/bb/213e619cb136207435c2a2718a909cdd8168973121a7977b44
+Successfully built ical
+Installing collected packages: ical
+  Found existing installation: ical 0.1.0
+    Not uninstalling ical at /home/alan/Documents/repogit/perso/ical, outside environment /home/alan/Documents/repogit/perso/ical/.tox/py27
+    Can't uninstall 'ical'. No files were found to uninstall.
+Successfully installed ical-0.1.0

@@ -1,0 +1,16 @@
+actionid: py35
+msg: envreport
+cmdargs: '/home/alan/Documents/repogit/perso/ical/.tox/py35/bin/python -m pip freeze'
+
+atomicwrites==1.2.1
+attrs==18.2.0
+ical==0.1.0
+icalendar==4.0.2
+more-itertools==4.3.0
+pathlib2==2.3.2
+pluggy==0.7.1
+py==1.6.0
+pytest==3.8.1
+python-dateutil==2.7.3
+pytz==2018.5
+six==1.11.0
